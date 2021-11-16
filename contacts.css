@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+body {
+	background-image: url('./beautiful-architecture-building-exterior-city-kuala-lumpur-skyline.jpg');
+	
+	font-family: 'Anton', work_sans;
+	color: black;
+	font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+header {
+    width: 100%;
+    height: 100%;
+
+}
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+}
+.phone {
+	color: #000;
+	font-size: 16px;
+	font-weight: 900;
+}
+.phone a {
+	color: #000;
+	font-size: 16px;
+	font-weight: 900;
+}
+h1 { text-align: center }
+.menu {
+    margin-top: 20px;
+    text-align: center;
