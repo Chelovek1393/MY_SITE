@@ -30,3 +30,32 @@ h1 { text-align: center }
     margin-top: 20px;
     text-align: center;
 }
+.countdown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.time-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-family: sans-serif;
+	padding: 0 30px;
+	border-right: 1px solid #fff;
+	user-select: none;
+}
+
+.time-section:last-child {
+	border: none;
+}
+
+.count {
+	font-size: 50px;
+}
+
+.units {
+	font-size: 15px;
+}
