@@ -36,7 +36,19 @@ header {
 	font-weight: 900;
 }
 h1 { text-align: center }
+h2 { text-align: center }
 .menu {
     margin-top: 20px;
     text-align: center;
+}
+.footer {
+    position: fixed;
+    bottom: 10px;
+    left: 30px;
+    color: white;
+    margin-top: 200px;
+}
+iframe {
+    margin: 100px auto;
+    display: block;
 }
