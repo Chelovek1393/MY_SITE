@@ -60,3 +60,10 @@ h2 { text-align: center }
 .units {
 	font-size: 15px;
 }
+.footer {
+    position: fixed;
+    bottom: 10px;
+    left: 30px;
+    color: white;
+    margin-top: 200px;
+}
